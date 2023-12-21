@@ -77,12 +77,12 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("Updates Channel", url="https://t.me/gdrivehub_backup")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
+
+                        
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/filmyworld_gdrivehub"),
+                        InlineKeyboardButton("Support Group", url="https://t.me/MOVIES_SERIES_JUNCTION"),
                         InlineKeyboardButton("JOIN GDRIVEHUB", url="https://t.me/addlist/TbzIB7LJhlQ3OTk1")
                     ]
                 ]
@@ -124,7 +124,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/filmyworld_gdrivehub)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/MOVIES_SERIES_JUNCTION)",
                                      disable_web_page_preview=True)
             return
 
@@ -323,7 +323,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        
                     ]
                 ]
             )
@@ -340,7 +340,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                                              url="https://youtube.com/@Tech_VJ")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
+                    
                         InlineKeyboardButton("Go Home", callback_data="gotohome")
                     ]
                 ]
@@ -357,13 +357,12 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("Updates Channel", url="https://t.me/gdrivehub_backup")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
+                        
+                    
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/filmyworld_gdrivehub"),
-                        InlineKeyboardButton("YouTube Channel", url="https://youtube.com/@Tech_VJ")
+                        InlineKeyboardButton("Support Group", url="https://t.me/MOVIES_SERIES_JUNCTION")
                     ]
                 ]
             )
@@ -413,10 +412,6 @@ async def button(bot: Client, cmd: CallbackQuery):
                     [
                         InlineKeyboardButton("Updates Channel", url="https://t.me/gdrivehub_backup"),
                         InlineKeyboardButton("Support Group", url="https://t.me/filmyworld_gdrivehub")
-                    ],
-                    [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
                     ]
                 ]
             )
