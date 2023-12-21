@@ -73,17 +73,14 @@ async def start(bot: Client, cmd: Message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/gdrivehub_backup")
-                    ],
+            
                     [
 
                         
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/MOVIES_SERIES_JUNCTION"),
-                        InlineKeyboardButton("JOIN GDRIVEHUB", url="https://t.me/addlist/TbzIB7LJhlQ3OTk1")
+                        InlineKeyboardButton("Support Group", url="https://t.me/MOVIES_SERIES_JUNCTION")
                     ]
                 ]
             )
@@ -318,10 +315,6 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://youtube.com/@Tech_VJ")
-                    ],
-                    [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
                         
                     ]
@@ -335,10 +328,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://youtube.com/@Tech_VJ")
-                    ],
+                    
                     [
                     
                         InlineKeyboardButton("Go Home", callback_data="gotohome")
@@ -354,7 +344,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/gdrivehub_backup")
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/MOVIES_SERIES_JUNCTION")
                     ],
                     [
                         
@@ -378,7 +368,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/filmyworld_gdrivehub).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/MOVIES_SERIES_JUNCTION).",
                         disable_web_page_preview=True
                     )
                     return
@@ -400,7 +390,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/filmyworld_gdrivehub).",
+                    text="Something went Wrong. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/MOVIES_SERIES_JUNCTION).",
                     disable_web_page_preview=True
                 )
                 return
@@ -410,8 +400,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/gdrivehub_backup"),
-                        InlineKeyboardButton("Support Group", url="https://t.me/filmyworld_gdrivehub")
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/MOVIES_SERIES_JUNCTION"),
+                        InlineKeyboardButton("Support Group", url="https://t.me/MOVIES_SERIES_JUNCTION")
                     ]
                 ]
             )
